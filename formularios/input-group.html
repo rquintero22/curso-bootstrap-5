@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="row mt-3">
+
+            <div class="col-6">
+
+                <div class="input-group mb-3">
+
+                    <input type="text" name="nombre" id="nombre"
+                            class="form-control"
+                            placeholder="Nombre"
+                            aria-label="Nombre">
+                    <span class="input-group-text">@gmail.com</span>
+
+                </div>
+
+                <!-- Textarea -->
+                <div class="input-group mb-3">
+
+                    <span class="input-group-text">Notas</span>
+                    <textarea class="form-control" name="label-notas" id="label-notas" ></textarea>
+
+                </div>
+
+                <!-- Input group con multiples elementos -->
+                <div class="input-group mb-3">
+
+                    <span class="input-group-text">Nombre</span>
+                    <input type="text" name="nombre" id="nombre"
+                            class="form-control"
+                            aria-label="Nombre">
+
+                    <span class="input-group-text">Apellido</span>
+                    <input type="text" name="apellido" id="apellido"
+                            class="form-control"
+                            aria-label="Apellido">
+
+                </div>
+
+            </div>
+
+            <div class="col-6">
+
+                <div class="input-group input-group-sm mb-3">
+
+                    <span class="input-group-text">Pequeño</span>
+                    <input type="text"  class="form-control">
+
+                </div>
+
+                <div class="input-group input-group-lg mb-3">
+
+                    <span class="input-group-text">Grande</span>
+                    <input type="text"  class="form-control">
+
+                </div>
+
+                <div class="input-group mb-3">
+
+                    <label for="pais" class="input-group-text">País</label>
+                    <select name="pais" id="pais" class="form-select">
+                        <option value="costa-rica">Costa Rica</option>
+                        <option value="mexico">México</option>
+                        <option value="colombia">Colombia</option>
+                    </select>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
